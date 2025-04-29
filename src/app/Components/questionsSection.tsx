@@ -9,7 +9,7 @@ function QuestionsSection() {
     }
     return (
         <div className="w-full lg:w-1/2">
-            <div className="max-w-[550px] md:max-w-[700px] mx-auto">
+            <div className="i">
                 <div className="w-full py-6 border-t border-b border-slate-200">
                     <div className="flex items-center justify-between gap-3 text-[#0a165e] cursor-pointer" onClick={() => handleClick(1)}>
                         <h2 className="text-xl font-semibold">Q1. Do you have any client testimonials?</h2>
@@ -22,7 +22,7 @@ function QuestionsSection() {
                             paddingTop: states[1] ? '12px' : '0px',
                             paddingBottom: states[1] ? '12px' : '0px',
                             overflow: 'hidden',
-                            transition: 'max-height 0.7s ease, padding 0.7s ease',
+                            transition: 'max-height 1s ease, padding 1s ease',
                         }}>
                         Absolutely! Consider what our clients have to say about our collaboration. Go to homepage and have a look at the bottom of the page.
                     </p>
@@ -38,7 +38,7 @@ function QuestionsSection() {
                         paddingTop: states[2] ? '12px' : '0px',
                         paddingBottom: states[2] ? '12px' : '0px',
                         overflow: 'hidden',
-                        transition: 'max-height 0.7s ease, padding 0.7s ease',
+                        transition: 'max-height 1s ease, padding 1s ease',
                     }}>
                         We carefully track and manage our team' time for each task, down to the minute. To achieve this, we rely on Harvest and Redmine to monitor the duration spent on your project.</p>
                 </div>
@@ -53,7 +53,7 @@ function QuestionsSection() {
                         paddingTop: states[3] ? '12px' : '0px',
                         paddingBottom: states[3] ? '12px' : '0px',
                         overflow: 'hidden',
-                        transition: 'max-height 0.7s ease, padding 0.7s ease',
+                        transition: 'max-height 1.2s ease, padding 1.2s ease',
                     }}>
                         Our pricing considerations encompass a range of factors, such as the project's scope, duration, and technical complexities. We acknowledge that clarity may seem elusive in this domain; however, transparency remains our guiding principle. Each software endeavor bears its own distinct characteristics, particularly when fueled by pioneering ideas. Our aim is not to offer an exaggerated estimate but rather to deliver unparalleled quality within your financial parameters. For an estimated quote, simply visit our homepage and click on contact located at the top left corner of our menu.</p>
                 </div>
@@ -68,7 +68,7 @@ function QuestionsSection() {
                         paddingTop: states[4] ? '12px' : '0px',
                         paddingBottom: states[4] ? '12px' : '0px',
                         overflow: 'hidden',
-                        transition: 'max-height 0.7s ease, padding 0.7s ease',
+                        transition: 'max-height 1s ease, padding 1s ease',
                     }}>
                         We offer different payment options like bank transfer, khalti and cash .</p>
                 </div>
